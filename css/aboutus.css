@@ -1,0 +1,110 @@
+
+body{
+	margin:5px 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head{
+	height: 50px;
+    background-color: #e0f2f1;
+}
+
+#logo
+{
+	float: left;
+	background-color: #fff;
+	font-style: italic;
+	font-size: 35px;
+	background-color: #e0f2f1;
+
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+	box-shadow: 5px 5px 2px #bdbdbd;
+	width: auto;
+
+}
+
+li{
+	float: right;
+	padding: 4px 15px 5px 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-style: bold;
+	background-color: #e0f2f1;
+	text-align: center;
+	height: 40px;
+	font-weight:bold;
+	color: #004d40;
+}
+
+#active {
+  background-color: #009688;
+}
+
+a {
+    color: #004d40; 
+     text-decoration: none;
+}
+
+li:hover{
+	background-color: #009688;
+}
+/*------------------------------------------*/
+#wrapper {
+    width: 100%;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#one {
+    width: 75%;
+    float:left; /* add this */
+}
+#two {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#girl{
+	 height: 75%;
+	 margin-top: 10%;
+}
+
+
+
+#footer
+{
+	height:60px;
+	width:1520px;
+	background:#505050;
+	font-size:18px;
+	font-family:calibri;
+	color:#fff;
+	float:left;
+}
+#footer a{
+	text-decoration:none;
+	color:#ffffff;
+	
+}
+#left1
+{
+	height:30px;
+	width:400px;
+	float:left;
+	padding-top:20px;
+	padding-left:5px;
+}
+#right1
+{
+	height:30px;
+	width:580px;
+	padding-top:20px;
+	text-align:right;
+	padding-right:20px;
+	float:right;
+}

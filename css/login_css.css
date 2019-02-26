@@ -1,0 +1,31 @@
+body{
+background:#555;
+font-family:'Agency FB';
+}
+#div1{
+	height:auto;
+	width:240px;
+	margin:150px auto;
+	background:#fff;
+	padding:50px 50px 40px 50px;
+}
+.txt{
+height:35px;
+width:230px;
+border-radius:5px;
+border:1px solid #009688;
+padding-left:3px;
+font-family:'Agency FB';
+font-size:17px;
+margin-bottom:10px;
+font-weight:bold;
+}
+.txt:hover
+{
+border:2px solid #009688;
+}
+a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#009688;
+}

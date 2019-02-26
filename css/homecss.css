@@ -1,0 +1,91 @@
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"
+body{
+	margin:5px 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head{
+	height: 40px;
+    background-color: #e0f2f1;
+}
+
+#comin{
+	font-family: 'Kaushan Script', cursive;
+}
+
+#name{
+	font-weight: bold;
+}
+
+#logo
+{
+	float: left;
+	background-color: #fff;
+	font-style: italic;
+	font-size: 35px;
+	background-color: #e0f2f1;
+
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+	box-shadow: 5px 5px 2px #bdbdbd;
+	width: auto;
+
+}
+
+li{
+	float: right;
+	padding: 6px 15px 5px 15px;
+	margin-top: 0px;
+	border-radius: 5px;
+	font-size: 1.2em;
+	font-style: bold;
+	background-color: #e0f2f1;
+	text-align: center;
+	height: 40px;
+	font-weight:bold;
+	color: #004d40;
+}
+
+a {
+    color: #004d40; 
+     text-decoration: none;
+}
+
+li:hover{
+	background-color: #009688;
+	height:40px;
+}
+
+.bg-image {
+  margin-top:10px;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 80%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.3); 
+  color: white;
+  font-style: italic;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  
+}

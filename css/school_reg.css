@@ -1,0 +1,88 @@
+body{
+background:#eee;
+font-family:'Agency FB';
+}
+#outer{
+margin:20px auto;
+height:620px;
+width:auto;
+padding:0px 30px 0px 80px;
+}
+#left{
+	height:360px;
+	width:400px;
+	float:left;
+	padding-top:60px;
+	padding-left:70px;
+	padding-right:30px;
+}
+#right{
+	height:620px;
+	width:700px;
+	float:left;
+}
+table{
+	font-weight:bold;
+	color:#333;
+}
+.btn{
+height:35px;
+width:100px;
+color:#fff;
+background:#009688;
+border:none;
+margin:10px;
+font-family:'Agency FB';
+font-size:17px;
+}
+td{
+height:40px;
+width:280px;
+}
+.txt{
+height:35px;
+width:230px;
+border-radius:5px;
+border:1px solid #009688;
+padding-left:3px;
+font-family:'Agency FB';
+font-size:17px;
+}
+.txt:hover
+{
+border:2px solid #009688;
+}
+
+
+#footer
+{
+	height:60px;
+	width:1520px;
+	background:#505050;
+	font-size:18px;
+	font-family:calibri;
+	color:#fff;
+	float:left;
+}
+#footer a{
+	text-decoration:none;
+	color:#ffffff;
+	
+}
+#left1
+{
+	height:30px;
+	width:400px;
+	float:left;
+	padding-top:20px;
+	padding-left:5px;
+}
+#right1
+{
+	height:30px;
+	width:580px;
+	padding-top:20px;
+	text-align:right;
+	padding-right:20px;
+	float:right;
+}
